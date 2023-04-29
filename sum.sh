@@ -5,6 +5,6 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
-sum=$(( $1 + $2 ))
+sum=$(( $1 + $2 + 1))
 
 echo "The sum of $1 and $2 is: $sum"
